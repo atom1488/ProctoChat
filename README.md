@@ -6,6 +6,7 @@
 ```
 npm install bcrypt dotenv express http https mongoose socket.io zlfetch
 ```
+Put your MongoDB URL in the .env file
 
 ### Start app:
 ```
