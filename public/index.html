@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>ProctoChat v1.0</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <link href="/styles.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="images/x-icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="proctoindex">
+        <div id="procto-logo" class="procto-logo">
+            <p>ProctoChat</p>
+        </div>
+        <h2>Login :</h2>
+        <input id="username" type="text" placeholder="Pseudo" />
+        <input id="password" type="password" placeholder="Mot de passe" />
+        <br>
+        <button id="loginBTN">Login</button>
+        <div id="loginInfo"></div>
+        <br><br>
+        <hr><br>
+        <h2>Register :</h2>
+        <input id="rusername" type="text" placeholder="Pseudo" />
+        <input id="rpassword" type="password" placeholder="Mot de passe" /><br>
+        <button id="registerBTN">Register</button>
+        <div id="registerInfo"></div>
+        <br><br>
+        <hr><br>
+        <h2>Supprimer son compte :</h2>
+        <input id="dusername" type="text" placeholder="Pseudo" />
+        <input id="dpassword" type="password" placeholder="Mot de passe" /><br>
+        <button id="deleteBTN">Delete !</button>
+        <div id="deleteInfo"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/zl-fetch"></script>
+    <p class="footer">Made with <strong>❤️</strong> by atomkern</p>
+    <p class="footer" style="padding-top: 0px;">😳 Made by <strong>atomkern</strong></p>
+    <script src="login.js"></script>
+</body>
+
+</html>
