@@ -6,6 +6,7 @@ var mongoose = require('mongoose');
 var app = express();
 
 var port = 80
+//if you change port, you also need to change it in ./public/chat.js
 
 var server = app.listen(port, function () {
     console.log(`\x1b[33mListening... \x1b[31mPORT:${port} \x1b[0m`);
