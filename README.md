@@ -13,7 +13,7 @@ npm run start
 ```
 ---
 
-[x] dead project
+- [x] dead project
 
 This app includes register and login system using MongoDB (password are encrypted with bcrypt)
 
